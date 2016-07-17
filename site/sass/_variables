@@ -1,0 +1,3 @@
+$nova-semibold:		"Proxima Nova-Semibold",sans-serif;
+$nova-bold:			"Proxima Nova-Bold",sans-serif;
+$nova-reg:			"Proxima Nova-Regular",sans-serif;
