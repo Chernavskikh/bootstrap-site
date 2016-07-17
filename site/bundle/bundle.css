@@ -1154,8 +1154,9 @@ section.news-section article a {
     padding-right: 0px;
   }
 
-  .main-section .info-poster {
-    padding-top: 100px;
+  .main-section .info-poster h1 {
+    padding-top: 10px;
+    font-size: 50px;
   }
 
   .main-section .info-poster p {
@@ -1250,7 +1251,7 @@ section.news-section article a {
 
   .main-section .info-poster h1 {
     font-size: 32px;
-    padding-top: 55px;
+    padding-top: 10px;
   }
 
   .main-section .info-poster p {

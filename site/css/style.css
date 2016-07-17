@@ -340,10 +340,11 @@ section.news-section article {
     .header-bg header .header-main-nav a:last-child {
       border-right: none;
       padding-right: 0px; }
-  .main-section .info-poster {
-    padding-top: 100px; }
-    .main-section .info-poster p {
-      width: 400px; }
+  .main-section .info-poster h1 {
+    padding-top: 10px;
+    font-size: 50px; }
+  .main-section .info-poster p {
+    width: 400px; }
   .main-section .news-section article img {
     margin: 0 15px 5px 0 !important;
     float: none; }
@@ -397,7 +398,7 @@ section.news-section article {
       padding: 25px; }
       .main-section .info-poster h1 {
         font-size: 32px;
-        padding-top: 55px; }
+        padding-top: 10px; }
       .main-section .info-poster p {
         width: 100%; }
     .main-section aside {
