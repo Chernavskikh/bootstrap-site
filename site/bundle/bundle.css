@@ -122,6 +122,10 @@ header .banner-row .banner {
   color: #c4b07a;
 }
 
+header .banner-row .banner img {
+  margin-right: 15px;
+}
+
 header .header-main-nav a {
   display: block;
   float: left;
@@ -420,6 +424,7 @@ section.news-section article a {
   font-family: "Proxima Nova-Regular", sans-serif;
   font-size: 14px;
   color: #fff;
+  line-height: 1.5em;
 }
 
 .footer-wrapper footer .first-center-list,
@@ -582,7 +587,9 @@ section.news-section article a {
   }
 
   header .navbar-form .input-group {
-    padding: 10px 35px;
+    width: 60%;
+    min-width: 320px;
+    margin: 0 auto;
   }
 
   .main-section {
@@ -633,14 +640,15 @@ section.news-section article a {
 
   .main-section .news-section article {
     padding-left: none !important;
+    padding-right: 15px !important;
   }
 
   .main-section .news-section article img {
-    margin: 0 10px 10px 0;
+    margin: 0 10px 10px 0 !important;
   }
 
   .main-section .news-section article h2 {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .footer-wrapper {

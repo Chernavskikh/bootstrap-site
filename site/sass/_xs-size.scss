@@ -40,10 +40,11 @@
 		}
 		.navbar-form{
 			float: none;
-			.input-group{
-			padding: 10px 35px;
-			}
-
+				.input-group{
+				width: 60%;
+				min-width: 320px;
+				margin: 0 auto;
+				}
 		}
 		
 	}
@@ -85,11 +86,12 @@
  			}
  			article{
  				padding-left: none!important;
- 				img{
- 					margin: 0 10px 10px 0;
- 				}
- 				h2{
-	 				font-size: 20px;
+ 				padding-right: 15px!important;
+	 				img{
+	 					margin: 0 10px 10px 0!important;
+	 				}
+	 				h2{
+	 					font-size: 17px;
 
 	 				}
  			}

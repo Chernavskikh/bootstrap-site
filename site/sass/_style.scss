@@ -33,6 +33,9 @@ header{
                 font-family: $nova-semibold;
                 font-size: 11px;
                 color: #c4b07a;
+                img{
+                    margin-right: 15px;
+                }
             }
         }
         .header-main-nav{
@@ -288,6 +291,7 @@ section.news-section{
                     font-family: $nova-reg;
                     font-size: 14px;
                     color: #fff;
+                    line-height: 1.5em;
                 }
 
             }
