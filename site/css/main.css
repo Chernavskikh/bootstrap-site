@@ -38,20 +38,20 @@ html, body {
   background-color: #f3efe4 !important; }
 
 h3 {
-  padding-bottom: 40px;
   font-family: "Proxima Nova-Bold", sans-serif;
+  color: #a3a78b;
   font-size: 14px;
-  color: #a3a78b; }
+  padding-bottom: 40px; }
 
 .content-width {
   width: 1029px;
   margin: 0 auto; }
 
 .header-bg {
+  background-color: red;
+  border-bottom: 1px solid #e4ded1;
   width: 100%;
-  height: 90px;
-  background-color: #fff;
-  border-bottom: 1px solid #e4ded1; }
+  height: 90px; }
 
 header .logo {
   position: relative; }
@@ -71,92 +71,94 @@ header .banner-row {
 header .header-main-nav a {
   display: block;
   float: left;
-  margin-top: 25px;
-  padding: 0 18px;
   font-family: "Proxima Nova-Semibold", sans-serif;
   font-size: 16px;
   color: #3b401e;
+  padding: 0 18px;
+  border-right: 1px solid #757f3c;
   line-height: 1em;
-  border-right: 1px solid #757f3c; }
+  margin-top: 25px; }
 
 header .header-main-nav a:first-child {
   padding-left: 0; }
 
 header .header-main-nav a:last-child {
-  padding-right: none;
-  border-right: none; }
+  border-right: none;
+  padding-right: none; }
 
 header .header-second-nav {
   float: right;
   padding-top: 10px; }
   header .header-second-nav a {
-    padding: 0 7px;
     font-family: "Proxima Nova-Semibold", sans-serif;
     font-size: 12px;
     color: #414141;
+    padding: 0 7px;
     line-height: 1em;
     border-right: 1px solid #717171; }
   header .header-second-nav a:first-child {
     padding-left: 0; }
   header .header-second-nav a:last-child {
-    padding-right: 0px;
-    border-right: none; }
+    border-right: none;
+    padding-right: 0px; }
 
-header .header-form {
+header .navbar-form {
   float: right;
   padding-top: 5px; }
-  header .header-form .form-control:focus {
+  header .navbar-form .form-control:focus {
     border-color: #66afe9;
     outline: 0;
     box-shadow: none;
     box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075); }
-  header .header-form #srch-term {
+  header .navbar-form #srch-term {
     width: 100%;
-    height: 35px;
+    background-color: #f3efe4;
+    border: none;
+    border-radius: 6px 0 0 6px;
     font-family: "Georgia";
     font-style: italic;
     color: #757f3c;
+    height: 35px; }
+  header .navbar-form #srch-btn {
     background-color: #f3efe4;
     border: none;
-    border-radius: 6px 0 0 6px; }
-  header .header-form #srch-btn {
     height: 35px;
-    background-color: #f3efe4;
-    border: none;
     box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075); }
 
 /*MAIN SECTION START*/
 .main-section {
   background-color: #fff;
   padding: 40px;
-  margin: 40px auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
   border: 1px solid #e4ded1; }
   .main-section .info-poster {
-    height: 413px;
-    margin-bottom: 38px;
-    padding-top: 160px;
-    padding-left: 60px;
-    border: 1px solid #e4ded1;
     background-image: url("../img/main-img.jpg");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    height: 413px;
+    border: 1px solid #e4ded1;
+    padding-top: 160px;
+    padding-left: 60px;
+    margin-bottom: 38px; }
     .main-section .info-poster h1 {
       font-family: "Proxima Nova-Bold", sans-serif;
       font-size: 48px;
       color: #f3efe4;
-      line-height: 1em; }
+      line-height: 1em;
+      margin: 0 0 30px 0; }
     .main-section .info-poster p {
-      width: 633px;
       font-family: "Proxima Nova-Regular", sans-serif;
       font-size: 18px;
-      color: #fFF; }
+      color: #fFF;
+      width: 633px; }
     .main-section .info-poster .main-btn {
-      width: 180px;
-      height: 50px;
       font-family: "Proxima Nova-Bold", sans-serif;
       font-size: 14px;
       color: #fff;
       background-color: #e8930c;
+      width: 180px;
+      height: 50px;
       border-bottom: 3px solid #d08000; }
 
 /*ASIDE START*/
@@ -204,7 +206,6 @@ aside .mail-form {
 /*ASIDE END*/
 /*NEWS SECTION START*/
 section.news-section h3 {
-  margin-left: 25px;
   font-family: "Proxima Nova-Bold", sans-serif;
   font-size: 14px;
   color: #a3a78b; }
@@ -229,14 +230,11 @@ section.news-section article {
     position: absolute;
     top: 0;
     left: 96%; }
-    section.news-section article .position-comments .comments-article {
-      color: #fff !important;
-      font-size: 11px; }
     section.news-section article .position-comments .comments-block {
-      height: 18px;
-      width: 25px;
       position: relative;
       background-color: #d98d1b;
+      height: 18px;
+      width: 25px;
       color: #fff;
       text-align: center;
       font-size: 11px;
@@ -266,17 +264,16 @@ section.news-section article {
 
 .footer-wrapper {
   width: 100%;
-  height: 100%;
   background-color: #757f3c;
-  padding-bottom: 25px; }
+  height: 335px; }
   .footer-wrapper footer h3, .footer-wrapper footer #h3 {
-    margin: 15px 0 35px 0;
-    padding: 15px 0;
     font-family: "Proxima Nova-Bold", sans-serif;
     font-size: 14px;
     color: #3b401e;
     border-bottom: 1px solid #51582a;
-    box-shadow: 0px 1px 0px 0px #889446; }
+    box-shadow: 0px 1px 0px 0px #889446;
+    padding: 15px 0;
+    margin: 15px 0 35px 0; }
   .footer-wrapper footer ul {
     margin: 0;
     padding: 0; }
@@ -290,8 +287,8 @@ section.news-section article {
   .footer-wrapper footer .first-center-list,
   .footer-wrapper footer .second-center-list {
     float: left;
-    width: 145px;
-    margin-right: 55px; }
+    margin-right: 55px;
+    width: 145px; }
   .footer-wrapper footer .form-control:focus {
     border-color: #66afe9;
     outline: 0;
@@ -299,17 +296,17 @@ section.news-section article {
     box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075); }
   .footer-wrapper footer #srch-footer {
     width: 100%;
-    height: 35px;
+    background-color: #f3efe4;
+    border: none;
+    border-radius: 6px 0 0 6px;
     font-family: "Georgia";
     font-style: italic;
     color: #757f3c;
-    background-color: #f3efe4;
-    border: none;
-    border-radius: 6px 0 0 6px; }
+    height: 35px; }
   .footer-wrapper footer #btn-footer {
-    height: 35px;
     background-color: #f3efe4;
     border: none;
+    height: 35px;
     box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075); }
 
 /* Medium */
@@ -345,10 +342,8 @@ section.news-section article {
     .main-section .info-poster p {
       width: 400px; }
   .main-section .news-section article img {
-    margin: 0 15px 5px 0 !important;
+    margin-bottom: 100px;
     float: none; }
-  .main-section .news-section article h2 {
-    font-size: 20px; }
   .footer-wrapper footer .center-column-footer .first-center-list,
   .footer-wrapper footer .center-column-footer .second-center-list {
     margin-right: 20px; } }
@@ -383,20 +378,18 @@ section.news-section article {
         border: none; }
       header .header-second-nav a:last-child {
         padding-right: 0px; }
-    header .header-form {
-      float: none;
-      margin: 0 auto; }
-      header .header-form .input-group {
+    header .navbar-form {
+      float: none; }
+      header .navbar-form .input-group {
         width: 60%;
-        min-width: 250px;
+        min-width: 320px;
         margin: 0 auto; }
   .main-section {
     padding: 0 15px; }
     .main-section .info-poster {
-      background-position: center center;
-      padding: 25px; }
+      padding: 15px; }
       .main-section .info-poster h1 {
-        font-size: 32px;
+        font-size: 35px;
         padding-top: 55px; }
       .main-section .info-poster p {
         width: 100%; }
@@ -410,7 +403,7 @@ section.news-section article {
         line-height: 2em; }
       .main-section aside .input-group {
         width: 60%;
-        min-width: 250px;
+        min-width: 320px;
         margin: 0 auto; }
       .main-section aside .mail-form {
         width: 100%; }
@@ -424,8 +417,6 @@ section.news-section article {
         margin: 0 10px 10px 0 !important; }
       .main-section .news-section article h2 {
         font-size: 17px; }
-      .main-section .news-section article .position-comments {
-        left: 90%; }
   .footer-wrapper {
     height: 100%;
     padding-bottom: 30px;
@@ -435,5 +426,5 @@ section.news-section article {
       width: 100%; }
     .footer-wrapper footer .footer-form .input-group {
       width: 60%;
-      min-width: 250px;
+      min-width: 320px;
       margin: 0 auto; } }

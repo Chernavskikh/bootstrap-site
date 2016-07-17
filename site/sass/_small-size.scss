@@ -37,8 +37,11 @@
         .news-section{
             article{
                 img{
-                margin-bottom: 100px;
+                margin: 0 15px 5px 0!important;
                 float: none;
+                }
+                h2{
+                    font-size: 20px;
                 }
 
             }	
